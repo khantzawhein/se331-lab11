@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db5f917d-1540-4557-8327-957163dd2d3e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/se331/lab/entity/OrganizerAuthDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se331/lab/auth/AuthenticationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se331/lab/auth/AuthenticationResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se331/lab/auth/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se331/lab/auth/AuthenticationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/se331/lab/config/InitApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se331/lab/config/InitApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se331/lab/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se331/lab/config/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se331/lab/entity/Organizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se331/lab/entity/Organizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se331/lab/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se331/lab/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se331/lab/util/LabMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se331/lab/util/LabMapper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +59,7 @@
     &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;Spring Boot.Application.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;lab12&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/khantzawhein/CMU/Third Year/Comp-based Software Development/lab11&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -121,7 +126,8 @@
       <workItem from="1728151389851" duration="2725000" />
       <workItem from="1728156557383" duration="10470000" />
       <workItem from="1728217007426" duration="43000" />
-      <workItem from="1728217060683" duration="1686000" />
+      <workItem from="1728217060683" duration="2808000" />
+      <workItem from="1728487756536" duration="6567000" />
     </task>
     <servers />
   </component>

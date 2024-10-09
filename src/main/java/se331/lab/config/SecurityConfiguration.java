@@ -3,9 +3,12 @@ package se331.lab.config;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.http.HttpMethod;
 import org.springframework.security.authentication.AuthenticationProvider;
+import org.springframework.security.config.Customizer;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+import org.springframework.security.config.annotation.web.configurers.CorsConfigurer;
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.web.SecurityFilterChain;
@@ -29,7 +32,12 @@ public class SecurityConfiguration {
         });
         http.csrf((crsf) -> crsf.disable())
                 .authorizeHttpRequests((authorize) -> {
-                    authorize.requestMatchers("/api/v1/auth/**").permitAll().anyRequest().authenticated();
+                    authorize.requestMatchers("/api/v1/auth/**").permitAll()
+                            .requestMatchers(HttpMethod.OPTIONS, "/**").permitAll()
+                            .requestMatchers(HttpMethod.GET, "/events").permitAll()
+                            .requestMatchers(HttpMethod.GET, "/organizers").permitAll()
+                            .requestMatchers(HttpMethod.POST, "/events").hasRole("ADMIN")
+                            .anyRequest().authenticated();
                 })
                 .sessionManagement((session) -> {
                     session.sessionCreationPolicy(SessionCreationPolicy.STATELESS);
