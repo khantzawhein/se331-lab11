@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db5f917d-1540-4557-8327-957163dd2d3e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/se331/lab/entity/OrganizerAuthDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se331/lab/auth/AuthenticationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se331/lab/auth/AuthenticationResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/se331/lab/auth/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se331/lab/auth/AuthenticationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se331/lab/config/InitApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se331/lab/config/InitApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se331/lab/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se331/lab/config/SecurityConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se331/lab/entity/Organizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se331/lab/entity/Organizer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se331/lab/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se331/lab/user/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se331/lab/util/LabMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se331/lab/util/LabMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se331/lab/auth/RegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se331/lab/auth/RegisterRequest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +121,8 @@
       <workItem from="1728156557383" duration="10470000" />
       <workItem from="1728217007426" duration="43000" />
       <workItem from="1728217060683" duration="2808000" />
-      <workItem from="1728487756536" duration="6567000" />
+      <workItem from="1728487756536" duration="6725000" />
+      <workItem from="1728570083970" duration="2840000" />
     </task>
     <servers />
   </component>
